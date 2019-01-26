@@ -48,3 +48,17 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
+@media (max-width: 1085px) {
+    .bg-rose {
+        width: 200%;
+        top: 0;
+    }
+    .info .logo {
+        position: static;
+        transform: translate(0%, 50%);
+    }
+    .soon {
+        font-size: 35px;
+    }
+}
